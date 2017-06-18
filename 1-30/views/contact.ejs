@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+  <body>
+    <% include partials/nav.ejs %>
+    <h1> Content Page </h1>
+    <p>This is my first node.js web page!!</p>
+
+    <div style="text-align:center;">
+
+    <form id="contact-form" action='/contact' method="POST">
+      <label for="who">Your Name</label>
+      <input type="text" name="who" value="">
+      <label for="department">Your department</label>
+      <input type="text" name="department" value="">
+      <label for="email">Your email: </label>
+      <input type="text" name="email" value="">
+      <input type="submit" name="" value="submit">
+    </form>
+
+  </div>
+
+  </body>
+</html>
