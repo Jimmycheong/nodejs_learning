@@ -1,0 +1,4 @@
+#gitignore file
+
+#Remove Node modules 
+node_modules/
